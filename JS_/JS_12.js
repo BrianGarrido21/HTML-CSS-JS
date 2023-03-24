@@ -1,0 +1,2 @@
+var nombre,
+pregunta;
