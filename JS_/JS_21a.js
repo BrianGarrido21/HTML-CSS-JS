@@ -1,0 +1,1 @@
+var nombre, letra1, letra2, letra3;
