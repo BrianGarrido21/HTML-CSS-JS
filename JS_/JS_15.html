@@ -10,7 +10,19 @@
 <body>
     <h1>Ejemplo de javaScript</h1>
     <script>
-        numero=prompt("Teclea un numero real")
+        numero1=prompt("Teclea un numero real")
+        numero1=parseFloat(numero1);
+        numero2=prompt("Teclea otro numero real")
+        numero2=parseFloat(numero2);
+        num3=numero1/numero2;
+
+        if(num3=0,5){
+            document.write("Es correcto")
+        } else if(isNaN(numero1) || isNaN(numero2)){
+            document.write("Alguno de los numeros no es un numero")
+        } else{
+            document.write("Incorrecto")
+        } 
         
     </script>
 </body>

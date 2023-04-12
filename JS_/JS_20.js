@@ -1,0 +1,1 @@
+var nombre, nombre1, nombre2;

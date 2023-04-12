@@ -1,0 +1,1 @@
+var figura, lado, lado2, radio, area, perimetro, pi=3.14

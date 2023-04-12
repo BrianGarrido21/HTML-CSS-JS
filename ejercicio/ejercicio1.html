@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ejercicio1.js"></script>
+</head>
+<body>
+  
+    <h1>Ejercicio JavaScript</h1>
+    <script>
+        figura=prompt("Escriba una figura (cuadrado, rectangulo, circulo)");
+
+        if(figura=="cuadrado"){
+            lado=prompt("Escribe la longitud del lado");
+            lado=parseFloat(lado);
+            area=lado*2;
+            perimetro=lado*4;
+            document.write("Perimetro="+perimetro+"m" +" area="+area+"m2");
+        }else if(figura=="rectangulo"){
+            lado=prompt("Escribe la longitud del lado");
+            lado=parseFloat(lado);
+            lado2=prompt("Escribe la longitud del lado");
+            lado2=parseFloat(lado2);
+            area=lado*lado2;
+            perimetro=lado*2+lado2*2;
+            document.write("Perimetro="+perimetro+"m"+" area="+area+"m2");
+        } else if(figura=="circulo"){
+            radio=prompt("Escribe el radio del circulo");
+            radio=parseFloat(radio);
+            perimetro=2*pi*radio;
+            area=pi*(radio*radio);
+            document.write("Perimetro="+perimetro+"m"+" area="+area+"m2");
+        }
+    </script>
+</body>
+</html>
