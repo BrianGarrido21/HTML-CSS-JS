@@ -10,6 +10,13 @@
 <body>
     <h1>Ejercicios JavaScript</h1>
     <script>
+        año=prompt("Escribe año");
+        parseInt(año);
+        if((año%4==0)|| (año%100!=0) && (año%400==0))
+            document.write("Es bisiesto")
+            else
+                document.write("No es bisiesto")
+
         mes=prompt("Escriba numero 1-12");
         numMes=parseInt(mes);
         switch(numMes){
@@ -51,4 +58,6 @@
                 break;
             default:
                 document.write("No es un mes del año")
+
+
         }
