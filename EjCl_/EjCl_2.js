@@ -2,6 +2,5 @@ function mayusNotMayus(cadena){
 
 var cadena1=cadena.toLowerCase();
 var cadena2=cadena.toUpperCase();
-document.write(cadena1+"</br>")
-document.write(cadena2)
+document.write(cadena1+"</br>"+cadena2)
 }
