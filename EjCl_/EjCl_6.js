@@ -32,6 +32,8 @@ function traducirNumero(num) {
       case 10:
         traduccion = "ten";
         break;
+      default:
+        traduccion = "El numero debe estar entre 1 y 10";
     }
     document.write(traduccion);
   }
