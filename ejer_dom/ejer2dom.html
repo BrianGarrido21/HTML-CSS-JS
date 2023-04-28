@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p id="text"></p>
+        <p id="text1"></p>
+    </div>
+    
+    <p> 
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo sequi deleniti, rerum repellendus neque autem architecto veniam! Odit itaque eveniet mollitia quaerat perspiciatis,<br>  rem fuga earum, quae blanditiis facilis nihil.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa quis quaerat numquam soluta ad necessitatibus quas vel molestiae fugia <a href="http://prueba">dolorem magni veniam,</a>  minus in qui doloribus eaque
+    </p> 
+    <p>
+        sed quod architect Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint obcaecati asperiores iste, alias neque veniam nihil quae dolore deserunt! Debitis, velit dolorum cupiditate voluptas at a beatae molestias impedit vel.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia repudiandae pariatur ea officiis dicta minima quo magni! Saepe natus eaque, voluptates dolor exercitationem delectus,</p> 
+    <p>
+        dolore, repellendus enim magnam consectetur totam?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sapiente et tempora iure animi quisquam neque perferendis! Minima nobis <a href="http://prueba">reprehenderit at sed id exercitationem</a>, tempore, amet nemo temporibus vero quis.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>  
+    </p>
+    <p>
+        <a href="http://prueba">Ut aliquid libero porro</a> incidunt fugit atque sit, velit laborum eligendi amet? Quidem alias perspiciatis ipsum reprehenderit <br> obcaecati eius fugiat accusamus totam.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia incidunt, debitis distinctio, cum consequatur animi hic quo eum repellat laboriosam totam dolorum vero. Quia eveniet  dignissimos aspernatur facilis. Unde, cumque?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In nihil fugiat ad quia, molestias eos doloribus eaque? Iste blanditiis iure fugit rem! <a href="">Veritatis totam quas,</a> quod earum asperiores quo saepe.
+    </p>
+    <script>
+        const a = document.getElementsByTagName("a");
+        const array= Array.from(a).length;
+        document.getElementById("text").innerHTML= `Numero de enlaces: ${array}`;
+
+        const b=array[array.length-1].href;
+        document.getElementById("text1").innerHTML= "l enlace de la penultima es: "+b;
+    </script>
+</body>
+</html>
