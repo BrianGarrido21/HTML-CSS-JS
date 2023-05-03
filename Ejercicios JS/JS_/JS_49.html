@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejercicios javascript</h1>
+    <p>Nombre: <input type="text" id="nombre" placeholder="Introduce nombre"></p>
+    <p>Curso: <input type="text" placeholder="Introduce nombre"></p>
+    <p>Centro: <input type="text" placeholder="Introduce nombre"></p>
+    <button onclick="mostrarNombre()">Mostrar nombre</button>
+    <script>
+        function mostrarNombre(){
+        var nombre = document.getElementById("nombre");
+        alert("hola "+ nombre.value);
+        }
+    </script>
+</body>
+</html>
