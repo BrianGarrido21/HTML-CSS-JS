@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejem_35</title>
+    </head>
+    <body>
+        <h1>Fomularios</h1>
+        <p>Ejercicio: Encuesta de tu centro educativo</p>
+        <form>
+            <fieldset>
+                <legend>Estudiante</legend>
+                <label for="nombre"> Nombre: </label>
+                <input type="text">
+            </fieldset>
+            <fieldset>
+                <legend>Estudios</legend>
+                <label for="nombre"> ¿Que cursas? </label>
+                <input type="text">
+            </fieldset>
+            <fieldset>
+                <legend>Evaluacion del Centro</legend>
+                <h3>Instalaciones</h3>
+                <input type="radio">Muy bueno
+                <input type="radio">Bueno
+                <input type="radio">Normal
+                <input type="radio">Malo
+                <input type="radio">Muy Malo
+
+                <h3>Profesorado</h3>
+                <input type="radio">Muy bueno
+                <input type="radio">Bueno
+                <input type="radio">Normal
+                <input type="radio">Malo
+                <input type="radio">Muy Malo <br><br>
+
+                ¿Tienes tutor asignado?<input type="radio"> <br><br>
+
+                Horario: <input type="radio">Mañana <input type="radio">Tarde <br><br>
+
+                ¿Como vienes al centro? 
+                <select name="camino">
+                    <option>Andando</option>
+                    <option>Coche</option>
+                    <option>Transporte publico</option>
+                </select> <br><br>
+
+                ¿Trabajas?<input type="radio"> <br><br>
+
+                Comentarios sobre el funcionamiento del centro <br>
+                <textarea name="textarea" id="TA" cols="30" rows="5"></textarea>
+            </fieldset> <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </body>
+</html>

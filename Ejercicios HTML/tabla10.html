@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>tabla10</title>
+        <style type="text/css">
+            table, td, th{
+                border:1px solid black;
+            }
+            table{
+                border-collapse: collapse;
+            }
+            td,th{
+                padding: 5px;
+            }
+            thead{
+                color: navy;
+                background-color: green;
+            }
+            tbody{
+                color:green;
+                background-color: yellow;
+            }
+            tfoot{
+                color: maroon;
+                background-color: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption style="font-style: bold; font-size: 20px; color: blue;">Lista de la compra</caption>
+            <thead>
+                <tr>
+                    <th>producto</th>
+                    <th>cantidad</th>
+                    <th>precio</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td>20</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>destornillador</td>
+                    <td>1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>llave inglesa</td>
+                    <td>2</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>martillo</td>
+                    <td>1</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>tornillo</td>
+                    <td>1</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>cuerda</td>
+                    <td>1</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>bridas</td>
+                    <td>1</td>
+                    <td>7</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
