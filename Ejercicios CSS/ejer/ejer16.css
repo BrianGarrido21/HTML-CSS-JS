@@ -1,0 +1,24 @@
+div{
+    font-size: medium;
+    background-color: plum;
+}
+.d2{
+    background-color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.d3{
+    background-color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.d4{
+    background-color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    word-spacing: 20px;
+    font-size: 10px;
+}

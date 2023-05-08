@@ -1,0 +1,9 @@
+body{
+    background-color: #aaa;
+}
+.container{
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: rgb(134, 134, 134, 0.8);
+    padding: 75px 0px;
+}

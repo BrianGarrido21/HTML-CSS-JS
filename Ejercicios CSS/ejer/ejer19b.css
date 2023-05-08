@@ -1,0 +1,20 @@
+div{
+    display: inline;
+    float: left;
+    margin: 1em;
+    padding: 3em;
+    border: 2px solid #555;
+    font-family: 1em, Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+.visible{
+    overflow: visible;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll{
+    overflow: scroll;
+}

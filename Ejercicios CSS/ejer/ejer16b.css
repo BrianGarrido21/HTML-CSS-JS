@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Mysstery Quest";
+    src: url("mystery-quest.woff2");
+}
+p{
+    font-family: "Mystery Quest";
+}

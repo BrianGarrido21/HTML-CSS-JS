@@ -1,0 +1,13 @@
+.d1{
+    background-image: url(ejer12.jpg);
+    background-size: auto;
+}
+p{
+    border-style: dotted;
+    color: red;
+}
+
+.d2{
+    background-image: url(ejer12.jpg);
+    background-size: 300px 100px;
+}

@@ -1,0 +1,16 @@
+#p1{
+    background-color: rgb(255,99,71);
+}
+#p2{
+    background-color: #ff6347;
+}
+#p3{
+    background-color: hsl(9,100%,64%);
+}
+#p4{
+    background-color: rgba(255,99,71,0.5);
+}
+#p5{
+    background-color: hsl(9,100%,64%,0.5);
+}
+

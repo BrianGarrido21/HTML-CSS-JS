@@ -1,0 +1,12 @@
+.gris{
+    background-color: gray;
+    color: white;
+}
+.green{
+    background-color: rgb(106, 221, 106, 0.5);
+    color: lightblue;
+}
+.yellow{
+    background-color: rgba(187, 221, 106, 0.5);
+    color: blue;
+}+

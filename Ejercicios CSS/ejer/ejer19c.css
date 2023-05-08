@@ -1,0 +1,17 @@
+div{
+    position: fixed;
+    width: 300px;
+    height: 150px;
+    top: 0;
+}
+#c1{
+    z-index: 1;
+    background-color: green;
+    left: 0;
+}
+#c2{
+    z-index: 2;
+    background-color: yellow;
+    left: 200;
+    opacity: .5;
+}

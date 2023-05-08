@@ -1,0 +1,27 @@
+.d1{
+    border: 5px solid red;
+}
+.d2{
+    border: 3px solid blue;
+}
+.d3{
+    border: 1px dashed yellow;
+}
+.d4{
+    border-top: 5px dotted red;
+    border-bottom: 5px dotted blue;
+    border-left: 5px dotted yellow;
+    border-right: 5px dotted green;
+}
+.d5{
+    border: 10px double black;
+}
+.d6{
+    border: 5px double black;
+}
+.d7{
+    border-top: 2px solid black;
+    border-bottom: 4px solid black;
+    border-left: 15px solid black;
+    border-right: 8px solid black;
+}

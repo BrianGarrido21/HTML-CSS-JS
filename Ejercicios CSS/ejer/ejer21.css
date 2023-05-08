@@ -1,0 +1,12 @@
+div{
+    
+    position: relative;
+    border: 1px solid black;
+}
+
+.absolut{
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
