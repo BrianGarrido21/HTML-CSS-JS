@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejemplo de publicidad con JavaScript y HTML</h1>
+    <p>Este es un ejemplo 
+        <script>
+            function showAd() {
+              const ad = document.createElement("div");
+              ad.style.backgroundColor = "yellow";
+              ad.style.padding = "10px";
+              ad.style.marginTop = "20px";
+              ad.style.textAlign = "center";
+        
+              const closeButton = document.createElement("button");
+              closeButton.textContent = "Cerrar";
+              closeButton.style.display = "block";
+              closeButton.style.marginTop = "10px";
+        
+              ad.appendChild(document.createTextNode("Esta es una publicidad"));
+              ad.appendChild(document.createElement("br"));
+              ad.appendChild(closeButton);
+        
+              document.body.appendChild(ad);
+        
+              closeButton.onclick = function() {
+                document.body.removeChild(ad);
+              };
+            }
+        
+            setTimeout(showAd, 5000);
+          </script>
+</body>
+</html>

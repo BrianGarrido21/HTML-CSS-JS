@@ -12,17 +12,27 @@
     </div>
 
     <select id="">
-        <option value="Arial">Arial</option>
-        <option value="Time new roman">Time new roman</option>
-        <option value="Georgia">Georgia</option>
-        <option value="Cambria">Cambria</option>
-        <option value="geneva">geneva</option>
-        <option value="Pacifico">Pacifico</option>
-        <option value="Tolkien">Tolkien</option>
-
+        <option value="Arial" id="A" onclick="arial()">Arial</option>
+        <option value="Time new roman" onclick="times()" id="T">Time new roman</option>
+        <option value="Georgia" id="G" onclick="georgia()">Georgia</option>
+        <option value="Cambria" id="C" onclick="cambria()">Cambria</option>
+        <option value="geneva" id="Ge" onclick="geneva()">geneva</option>
+        <option value="Pacifico" id="P" onclick="times()">Pacifico</option>
+        <option value="Tolkien" id="T" onclick="times()">Tolkien</option>
     </select>
     <script>
-        
+        function arial(){
+            document.getElementById("A").style.fontFamily=Arial, Helvetica, sans-serif;
+        }
+        function times(){
+            document.getElementById("T").style.fontFamily=Times, serif;
+        }
+        function georgia(){
+            document.getElementById("G").style.fontFamily=Georgia, 'Times New Roman', Times, serif;
+        }
+        function geneva(){
+            document.getElementById("C").style.fontFamily=Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+        }
     </script>
 </body>
 </html>
