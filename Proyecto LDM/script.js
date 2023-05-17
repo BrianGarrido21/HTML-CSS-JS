@@ -4,16 +4,16 @@ function juego(eleccionUsuario) {
     var resultado = document.getElementById('resultado');
 
     if (eleccionUsuario === eleccionComputadora) {
-        resultado.textContent = '🫥 Empate 🫥';
+        resultado.textContent = ' Empate ';
     } else if (
         (eleccionUsuario === 'piedra' && eleccionComputadora === 'tijeras') ||
         
         (eleccionUsuario === 'papel' && eleccionComputadora === 'piedra') ||
         (eleccionUsuario === 'tijeras' && eleccionComputadora === 'papel')
     ) {
-        resultado.textContent = '🤩 Ganaste 🤩';
+        resultado.textContent = ' Ganaste ';
     } else {
-        resultado.textContent = '😵 Perdiste 😵';
+        resultado.textContent = ' Perdiste ';
     }
     manoEnemiga(eleccionComputadora);
 }
@@ -22,11 +22,11 @@ function manoEnemiga(eleccionComputadora){
 
     var eleccion = document.getElementById('eleccion');
     if (eleccionComputadora === 'piedra'){
-        eleccion.textContent = "✊";
+        eleccion.innerHTML ='<img src="piedra.png" alt="">';
         } else if (eleccionComputadora ==='tijeras'){
-            eleccion.textContent ="✌️";
+            eleccion.innerHTML ='<img src="tijeras.png" alt="">';
             } else {
-                eleccion.textContent ="✋" ;
+                eleccion.innerHTML ='<img src="papel.png" alt="">';
             }
 
     eleccion.classList.add('animar');

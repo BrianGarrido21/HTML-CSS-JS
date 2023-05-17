@@ -9,7 +9,10 @@ body {
     color: white;
     background-image: linear-gradient(to bottom right, black, blue);
 }
-
+img {
+    width: 100px;
+    height: 100px;
+}
 
 button {
     margin: 60px;
@@ -67,5 +70,5 @@ button {
 }
 
 #resultado.animar-resultado {
-    animation: rotateY 1s;
+    animation: rotateY 3s;
 }
